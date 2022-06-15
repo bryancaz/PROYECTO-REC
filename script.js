@@ -1,6 +1,6 @@
 //FIND
 //El método find() devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada.
-
+//EJEMPLO
 const fruteria = [
     { nombre: 'platano', stock: 12 },
     { nombre: 'pepino', stock: 19 },
