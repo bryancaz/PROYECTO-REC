@@ -1,16 +1,2 @@
-//REDUCE
-//El método reduce ejecuta una función de devolución de llamada "reductor" suministrada por el usuario en cada elemento de la matriz, en orden, pasando el valor de retorno del cálculo en el elemento precedente.
-//EJEMPLO
-const array1 = [1, 2, 3, 4];
-
-// 0 + 1 + 2 + 3 + 4
-const valorinicial = 0;
-const sumWithInitial = array1.reduce(
-  (previousValue, currentValue) => previousValue + currentValue,
-  valorinicial
-);
-
-console.log(sumWithInitial);
-// total == 10
-
-////////////////////////////////////////////////////
+//findIndex
+//El método findIndex() devuelve el índice del primer elemento de un array que cumpla con la función de prueba proporcionada. En caso contrario devuelve -1.
