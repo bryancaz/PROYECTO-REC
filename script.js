@@ -1,11 +1,2 @@
-//findIndex
-//El método findIndex() devuelve el índice del primer elemento de un array que cumpla con la función de prueba proporcionada. En caso contrario devuelve -1.
-//EJEMPLO
-
-const arrayone = [10, 120, 10, 15, 15];
-
-const numerolargo = (element) => element > 15;
-
-console.log(array1.findIndex(numerolargo));
-
-////////////////////////////////////////////////////
+//REPLACE
+//El tipo de array en JavaScript nos proporciona el método splice() que nos ayuda a reemplazar los elementos de un array existente eliminando e insertando nuevos elementos en el índice requerido/deseado.
