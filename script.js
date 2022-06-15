@@ -1,17 +1,16 @@
-//FIND
-//El método find() devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada.
-//EJEMPLO
-const fruteria = [
-    { nombre: 'platano', stock: 12 },
-    { nombre: 'pepino', stock: 19 },
-    { nombre: 'sandia', stock: 20 },
-    { nombre: 'jicama', stock: 9 }
-];
+//REDUCE
+//El método reduce ejecuta una función de devolución de llamada "reductor" suministrada por el usuario en cada elemento de la matriz, en orden, pasando el valor de retorno del cálculo en el elemento precedente.
 
-const totalproducto = fruteria.find(fruta => fruta.nombre === 'jicama');
+const array1 = [1, 2, 3, 4];
 
-console.log(resultado); 
-var total = [0, 1, 2, 3].reduce(function(a, b) { return a + b; });
+// 0 + 1 + 2 + 3 + 4
+const valorinicial = 0;
+const sumWithInitial = array1.reduce(
+  (previousValue, currentValue) => previousValue + currentValue,
+  valorinicial
+);
+
+console.log(sumWithInitial);
+// total == 10
 
 ////////////////////////////////////////////////////
-
