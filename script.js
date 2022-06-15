@@ -1,23 +1,8 @@
-//MAP
-// El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
-//Caso de uso: Necesitamos que filtre solo almuerzos.postre
-var almuerzos = [
-    {pricipal:'arepa', postre: 'helado'},
-    {pricipal:'tacos', postre: 'torta de queso'},
-    {pricipal:'pizza', postre: 'galletas'},
-    {pricipal:'sushi', postre: 'pastel'},
-];
-//var platosPrincipales
+//FILTER
+//El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
 
-//for (var i= 0; i < almuerzos.lenght; i++){
-// platosPrincipales.psuh(almuerzos[i].principal);
-//}
+const cervezas = ['tecate', 'corona', 'tecate roja', 'heineken', 'corona negra', 'tecate azul', 'indio', 'carta blanca'];
 
-var platosPrincipales = almuerzos.map(function(almuerzos){
-    return almuerzos.postre
-})
+const result = cervezas.filter(cervezas => cervezas.length > 8);
 
-console.log(almuerzos);
-console.log(platosPrincipales);
-
-////////////////////////////////////////////////////
+console.log(result);
