@@ -1,6 +1,6 @@
 //REDUCE
 //El método reduce ejecuta una función de devolución de llamada "reductor" suministrada por el usuario en cada elemento de la matriz, en orden, pasando el valor de retorno del cálculo en el elemento precedente.
-
+//EJEMPLO
 const array1 = [1, 2, 3, 4];
 
 // 0 + 1 + 2 + 3 + 4
