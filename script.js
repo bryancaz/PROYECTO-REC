@@ -1,8 +1,17 @@
-//FILTER
-//El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
+//FIND
+//El método find() devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada.
 
-const cervezas = ['tecate', 'corona', 'tecate roja', 'heineken', 'corona negra', 'tecate azul', 'indio', 'carta blanca'];
+const fruteria = [
+    { nombre: 'platano', stock: 12 },
+    { nombre: 'pepino', stock: 19 },
+    { nombre: 'sandia', stock: 20 },
+    { nombre: 'jicama', stock: 9 }
+];
 
-const result = cervezas.filter(cervezas => cervezas.length > 8);
+const totalproducto = fruteria.find(fruta => fruta.nombre === 'jicama');
 
-console.log(result);
+console.log(resultado); 
+var total = [0, 1, 2, 3].reduce(function(a, b) { return a + b; });
+
+////////////////////////////////////////////////////
+
